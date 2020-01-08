@@ -15,6 +15,9 @@
 		9B1BFD7723C54697001B3E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD7523C54697001B3E79 /* LaunchScreen.storyboard */; };
 		9B1BFD8223C54697001B3E79 /* tictac_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BFD8123C54697001B3E79 /* tictac_demoTests.swift */; };
 		9B1BFD8D23C54698001B3E79 /* tictac_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BFD8C23C54698001B3E79 /* tictac_demoUITests.swift */; };
+		9B1BFD9E23C54799001B3E79 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD9B23C54798001B3E79 /* cross.png */; };
+		9B1BFD9F23C54799001B3E79 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD9C23C54799001B3E79 /* nought.png */; };
+		9B1BFDA023C54799001B3E79 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD9D23C54799001B3E79 /* board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		9B1BFD8823C54698001B3E79 /* tictac demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tictac demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1BFD8C23C54698001B3E79 /* tictac_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictac_demoUITests.swift; sourceTree = "<group>"; };
 		9B1BFD8E23C54698001B3E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1BFD9B23C54798001B3E79 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		9B1BFD9C23C54799001B3E79 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		9B1BFD9D23C54799001B3E79 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		9B1BFD6923C54697001B3E79 /* tictac demo */ = {
 			isa = PBXGroup;
 			children = (
+				9B1BFD9A23C5475A001B3E79 /* New Group */,
 				9B1BFD6A23C54697001B3E79 /* AppDelegate.swift */,
 				9B1BFD6C23C54697001B3E79 /* SceneDelegate.swift */,
 				9B1BFD6E23C54697001B3E79 /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				9B1BFD8E23C54698001B3E79 /* Info.plist */,
 			);
 			path = "tictac demoUITests";
+			sourceTree = "<group>";
+		};
+		9B1BFD9A23C5475A001B3E79 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9B1BFD9D23C54799001B3E79 /* board.png */,
+				9B1BFD9B23C54798001B3E79 /* cross.png */,
+				9B1BFD9C23C54799001B3E79 /* nought.png */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1BFD7723C54697001B3E79 /* LaunchScreen.storyboard in Resources */,
+				9B1BFD9F23C54799001B3E79 /* nought.png in Resources */,
+				9B1BFDA023C54799001B3E79 /* board.png in Resources */,
 				9B1BFD7423C54697001B3E79 /* Assets.xcassets in Resources */,
+				9B1BFD9E23C54799001B3E79 /* cross.png in Resources */,
 				9B1BFD7223C54697001B3E79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
